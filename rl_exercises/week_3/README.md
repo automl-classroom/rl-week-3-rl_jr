@@ -28,8 +28,11 @@ Your task is to:
 
 Finally, analyze your results by answering:
 - How much does performance improve with tuned hyperparameters?
+    - no improvement: the initial hyperparameters (epsilon = 0.01; alpha = 0.01) already lead to the best performance (7.37118)
 - How does the learning rate affect training steps?
+    - for a fixed epsilon (0.01) tuning the learning rate has no impact (the performance is always the same at 7.37118)
 - What value of $\epsilon$ yields the best performance?
+    - best performance with epsilon value: 0.2570307853016
 
 *Note:* We have not provided test cases for this part. Instead, use the example templates in Hypersweeper and the starter code to guide your implementation.
 
